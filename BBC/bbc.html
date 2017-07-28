@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title></title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style>
+		
+		.category{
+			font-family: arial;
+			font-size: 14px;
+			border-right: 1px solid grey;
+			padding-right: 10px;
+			padding-left: 10px;
+			cursor: pointer;
+		}
+		.category1{
+			font-family: arial;
+			font-size: 14px;
+			border-right: 1px solid #bb1919;
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+		.news{
+			background-color: #bb1919;
+			color: white;
+			padding-bottom: 10px;
+			padding-top: 10px;
+
+			
+		}
+		.news1{
+			background-color: #a91717;
+			padding-bottom: 10px;
+			padding-top: 10px;
+			padding-left: 155px;
+			color: white;
+		}
+		.setmarg{
+			margin-left: 155px;
+			margin-right: 155px;
+			border-bottom: 1px solid grey;
+			padding-bottom: 5px;
+
+		}
+		#panel{
+			background-color: white;
+			font-size: 12px;
+			font-weight: bold;
+			font-family: arial;
+			width:100%;
+			height: 100px;
+			margin-left: 155px;
+			padding: 20px 0px 20px 0px;
+			display: none;
+		}
+		.arrow{
+			padding-left: 50px;
+		}
+		#row1{
+			background-color: black;
+			width:150% ; 
+			height: 100px;
+			display: none;
+		}
+		#slide1{
+			cursor: pointer;
+
+		}
+		#slide1:hover{
+			background-color: black;
+		}
+	</style>
+	
+</head>
+<body>
+	<div class="container" style="height: 100%; width:100%; padding: 0px 0px 0px 0px;"> 
+		<div class="setmarg">
+			<img src="/home/kp/Documents/bbc.png" style="border-right: 1px solid grey; padding-right: 10px;" >
+			<img src="/home/kp/Documents/signin.png" style="padding-left: 10px;">
+			<b class="category" style="padding-right: 70px;">Sign in</b>
+			<b class="category">News</b>
+			<b class="category">Sport</b>
+			<b class="category">Weather</b>
+			<b class="category">Shop</b>
+			<b class="category">Earth</b>
+			<b class="category">Travel</b>
+			<b id="slide" class="category" style="padding-right: 5px;">More <span class="arrow">&#9662;</span></b>
+			
+			
+			<input type="text" name="search" value="search" style="width: 200px;">
+		</div>
+		
+		<div id="panel">
+			<div>
+				<span style="padding-left: 100px;  position: fixed;">Capital</span>
+				<span style="padding-left: 200px; position: fixed;">Culture</span>
+				<span style="padding-left: 300px; position: fixed;">Autos</span>
+				<span style="padding-left: 400px; position: fixed;">Future</span>
+				<span style="padding-left: 500px; position: fixed;">TV</span>
+			</div>
+			<div style="padding-top: 20px;">
+				<span style="padding-left: 100px;  position: fixed;">Radio</span>
+				<span style="padding-left: 200px; position: fixed;" >CBBC</span>
+				<span style="padding-left: 300px; position: fixed;">CBeebies</span>
+				<span style="padding-left: 400px; position: fixed;">Food</span>
+				<span style="padding-left: 500px; position: fixed;">iWonder</span>
+			</div>
+			<div style="padding-top: 20px;">
+				<span style="padding-left: 100px;  position: fixed;">Bitesize</span>
+				<span style="padding-left: 200px; position: fixed;">Music</span>
+				<span style="padding-left: 300px; position: fixed;">Art</span>
+				<span style="padding-left: 400px; position: fixed;">Make It Digital</span>
+				<span style="padding-left: 500px; position: fixed;">Taster</span>
+			</div>
+			<div style="padding-top: 20px;">
+				<span style="padding-left: 100px; position: fixed;">Natural</span>
+				<span style="padding-left: 200px;position: fixed;">Local</span>
+				
+			</div>
+		</div>
+
+		<div class="news">
+			<b style="font-family: arial; font-size: 250%; padding-left: 155px;">NEWS</b>
+		</div>
+
+		<div class="news1">
+			<span class="category1">Home</span> 
+			<span class="category1">Video</span>
+			<span class="category1">World</span>
+			<span class="category1">Asia</span>
+			<span class="category1">UK</span>
+			<span class="category1">Business</span>
+			<span class="category1">Tech</span>
+			<span class="category1">Science</span>
+			<span class="category1">Magazine</span>
+			<span class="category1">Entertainment &amp; Arts</span>
+			<span class="category1">Health</span>
+			<span class="category1">World News TV</span>
+			<span id="slide1" class="category1">More</span>
+		</div>
+
+		<div id=row1 class="row">
+			<div class="col-xs-3" style="margin-left: 155px; margin-right: 155px; color: white; font-family: arial; font-weight: bold;">
+				<p> In Pictures</p>
+				<p>Also in the news</p>
+					
+			</div>
+		</div>
+			
+
+		<div class="setmarg">
+			<span class="category">Europe</span> <span style="font-family: arial; font-size: 14px; padding-right: 10px; padding-left: 10px; ">France Election 2017</span>
+		</div>
+
+		<div style="margin-left: 155px; margin-right: 450px; ">
+			<h1 style="padding: 10px; font-family: arial;">Poland's President Duda vetoes judicial reforms after protests</h1>
+			<div style="font-size: 15px; font-family: arial; ">
+				<span style="color: grey; border-right: 1px solid grey; padding-right: 10px;">x hours ago</span> <span style="color: #a91717;">Europe</span>
+			</div>
+			<div style="font-family: arial; color: #404040; font-size: 16px; line-height: 25px; margin-right: 100px; ">
+				<p style="font-size: 16px;font-weight: bold; padding: 20px 0px 0px 0px;">Polish President Andrzej Duda has announced he is vetoing a controversial law to replace Supreme Court judges with government nominees.</p>
+				<p>Three key judicial reforms have been passed by Poland's parliament, prompting days of demonstrations across the country.</p>
+				<p>Before they become law, they require approval by the president.</p>
+				<p>The changes have also set Poland's right-wing government on a collision course with the European Union.</p>
+				<p>The European Commission had threatened to impose sanctions this week if the reforms were not scrapped. European Council President Donald Tusk, a former Polish prime minister, had warned of a "black scenario that could ultimately lead to the marginalisation of Poland in Europe".</p>
+				<p style="color: #1e1e1e; font-weight: 500; font-size: 20px;">Why did president step in?</p>
+				<p>"As president I don't feel this law would strengthen a sense of justice," Mr Duda said in a statement broadcast on national television. "These laws must be amended."</p>
+				<p>He said he was vetoing two of the new laws but approving a third, which gives the justice minister the right to name the heads of Poland's lower courts.</p>
+				<img src="https://ichef.bbci.co.uk/news/624/cpsprodpb/41D7/production/_97055861_040762137-1.jpg">
+				<p>The Law and Justice (PiS) government has strongly rejected claims that the reforms are a move towards authoritarian rule and has expressed disappointment at Mr Duda's decision to wield a veto.</p>
+				<p>Mr Duda had already intervened last week in an attempt to find a compromise and his latest step came as a surprise.</p>
+				<p>He is himself a former member of the populist ruling party and he had already rejected a meeting on the crisis with Donald Tusk.</p>
+				<p>He said he had discussed the reforms at the weekend with legal experts as well as judges. The most influential voice, he said, was that of Zofia Romaszewska, a veteran dissident from the communist era who told Mr Duda she did not want to go back to the days when "the general prosecutor could do virtually anything".</p>
+				<img src="https://ichef-1.bbci.co.uk/news/624/cpsprodpb/142E9/production/_97056628_f9a3c995-2dec-4a8d-b461-645a7078bdea.jpg">
+				<p>She was jailed during the years of martial law in the early 1980s but is now one of the president's advisers. Ms Romaszewska told Polish media it was completely out of the question for the attorney general to take charge of the Supreme Court.</p>
+				<p>Opposition MPs also praised the role of protesters in influencing the decision</p>
+				<p>Demonstrations have taken place in dozens of Polish cities, from Poznan and Lublin to Krakow, Gdansk and Warsaw, and there have been calls for the protests to continue.</p>
+				<p>Mr Duda warned that no change should lead to a separation of the state from society.</p>
+				<ul style="font-weight: bold; color: #1e1e1e;">
+					<li style=" padding-bottom: 20px;">Hungary backs Poland in court reforms row</li>
+					<li style=" padding-bottom: 20px;">Polish MPs agree controversial reforms</li>
+				</ul>
+				<p style="color: #1e1e1e; font-weight: 500; font-size: 20px;">What's wrong with the reforms?</p>
+				<p>Poland's judicial system is widely seen as slow and reforms are seen as necessary. "I'm absolutely a supporter of this reform, but a wise reform," said President Duda.</p>
+				<p>The three reforms give the justice minister and MPs broad powers and have prompted alarm from the US, as well as the EU.</p>
+				<ul>
+					<li>The first reform requires all Supreme Court judges to step down and gives the justice minister the power to decide who should stay on</li>
+					<li>The second gives politicians control over who sits on the National Judiciary Council which nominates Supreme Court judges</li>
+					<li>The third gives the justice minister the right to select and dismiss judges in lower courts</li>
+				</ul>
+				<img src="https://ichef-1.bbci.co.uk/news/624/cpsprodpb/7F99/production/_97056623_040757748-1.jpg">
+				<p>The president's initial compromise plan last week watered down the government's bid to push through its nominees for the National Judiciary Council, by requiring the support of another political party. </p>
+				<p>In his statement, the president said he regretted that a draft law on reforming the Supreme Court had not been handed to him before a vote in the lower house of parliament, the Sejm.</p>
+				<p>The president also took issue with the strengthened role of the justice minister, who also acts as attorney general in Poland.</p>
+				<p style="color: #1e1e1e; font-weight: 500; font-size: 20px; ">What happens next?</p>
+				<p>In theory, the Polish parliament could now challenge the president's veto. </p>
+				<p>Law and Justice has a simple majority in the Sejm but needs a three-fifths majority if it decides to reject Mr Duda's decision. It could theoretically achieve that with the support of a smaller party, Kukiz'15, but that is not seen as certain.</p>
+				<p>A more likely step would be to spend the next weeks redrafting the two bills that the president has turned down and seek his approval. The protest movement has celebrated its success so far but is now pushing for the president to veto the third reform as well.</p>
+				<p>Much now depends on the man seen as the real power behind the government, Jaroslaw Kaczynski.</p>
+			</div>
+		</div>
+
+		<div style="background-color: #2f2f2f; border-bottom: 1px solid grey;">
+				<div style="color: white; font-family: arial; font-size: 24px; padding: 20px 0px 20px 155px;">
+					BBC News Services
+				</div>
+				<div style="font-family: arial; color: white; font-size: 14px; margin-left: 155px; padding-bottom: 25px;">
+					<b style="padding-right: 100px;">On your mobile</b>
+					<b style="padding-right: 100px;">On your connected TV</b>
+					<b style="padding-right: 100px;">Get news alerts</b>
+					<b style="padding-right: 100px;">Contact BBC news</b>
+				</div>
+		</div>
+
+		<div style="background-color: #4c4c4c;">
+			<div style="border-bottom: 1px solid grey; margin-left: 155px; margin-right: 155px;">
+				<div style="color: white; font-family: arial; font-size: 24px; padding: 20px 0px 20px;">
+					Explore the BBC
+				</div>
+			
+			</div>
+			<div style="margin-left: 155px; font-size: 13px; color: white; font-family: arial; padding-bottom: 10px; padding-top: 20px;">
+				
+			    <span style="padding-right: 10px;">Terms of Use</span>
+			    <span style="padding-right: 10px;">About the BBC</span>
+			    <span style="padding-right: 10px;">Privacy Policy</span>
+			    <span style="padding-right: 10px;">Cookies</span>
+			    <span style="padding-right: 10px;">Accessibility Help</span>
+			    <span style="padding-right: 10px;">Parental Guidance</span>
+			    <span style="padding-right: 10px;">Contact the BBC</span>
+			    <span style="padding-right: 10px;">Advertise with us</span>
+			    <span style="padding-right: 10px;">Ad choices</span>	
+			</div>
+			<div style="font-family: arial; color: white; font-size: 13px; margin-left: 155px; padding: 20px 0px 20px 0px;">
+				 <span style="font-weight: 700;">Copyright</span> &copy; <span style="font-weight: 700;">2017 BBC</span>. The BBC is not responsible for the content of external sites. Read about our approach to external linking. 
+			</div>
+			
+		</div>
+		
+		<script>
+			
+			$(document).ready(function(){
+
+				$("#slide").click(function(){
+
+					$("#panel").slideToggle("slow");
+				});
+				$("#slide1").click(function(){
+
+					$("#row1").toggle();
+				});
+				
+			});
+
+		</script>
+	</div>
+</body>
+</html>
